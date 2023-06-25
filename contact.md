@@ -1,16 +1,17 @@
 ---
-title: Contact
+title: Contato
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços de Análise de Segurança de Aplicativos e como podemos ajudar a proteger seu aplicativo contra ameaças cibernéticas. Nossa equipe está pronta para responder às suas perguntas e fornecer uma solução personalizada para suas necessidades de segurança de aplicativos.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+
+| Dia           | Horário de Funcionamento  |
+| ------------- | ------------------------- |
+| Terça-feira   | 8:30 às 17:00             |
+| Quarta-feira  | 8:30 às 17:00             |
+| Quinta-feira  | 8:30 às 17:00             |
+| Sexta-feira   | 8:30 às 17:00             |
+| Sábado        | 10:00 às 16:00            |
+| Domingo       | Fechado                   |

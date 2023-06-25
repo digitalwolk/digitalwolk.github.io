@@ -1,87 +1,40 @@
 ---
-title: About
+title: Sobre
 layout: page
-description: About
+description: Sobre
 bodyClass: page-about
 ---
 
-Lorem markdownum aequalis strigis. _Saetigeri iubeas_, vultu huic alvum nondum
-de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae
-crimen habet Priamum nec.
+Somos uma empresa especializada em soluções de cibersegurança, dedicada a fornecer serviços e produtos de alta qualidade para proteger as organizações contra ameaças cibernéticas. Com uma equipe de especialistas em segurança digital altamente qualificados e apaixonados pelo que fazem, estamos comprometidos em oferecer soluções excepcionais e resultados excepcionais.
+
 
 ![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
 
-# Objectives
+# Nossa Missão
 
-Financial accounting and financial reporting are often used as synonyms.
+Nossa missão é proteger nossos clientes contra as crescentes ameaças cibernéticas, fornecendo soluções inovadoras e eficazes de cibersegurança. Estamos comprometidos em entender as necessidades específicas de cada cliente e oferecer soluções personalizadas para proteger seus ativos digitais e garantir a continuidade dos seus negócios.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
+## Nossa Visão
 
-## Relevance
+Temos a visão de ser uma referência no mercado de cibersegurança, reconhecidos por nossa excelência em serviços e nossa capacidade de fornecer soluções avançadas e eficientes. Buscamos continuamente o aprimoramento e a atualização das nossas soluções para nos mantermos à frente das ameaças cibernéticas em constante evolução.
 
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
+## Nossos Valores
 
-> The ingredients of relevance are the predictive value and confirmatory value.
+**Expertise:** Contamos com uma equipe altamente qualificada, com experiência e conhecimento profundo em cibersegurança, para oferecer aos nossos clientes soluções confiáveis e eficazes.
 
-Information is considered material if its omission or misstatement could influence the economic decisions of users taken on the basis of the financial statements.
+**Inovação:** Estamos sempre em busca de soluções inovadoras para enfrentar os desafios emergentes no campo da cibersegurança e fornecer aos nossos clientes as melhores defesas possíveis.
 
-## Faithful Representation
+**Integridade:** Atuamos com ética e transparência em todas as nossas interações, mantendo a confidencialidade e a privacidade dos dados dos nossos clientes como uma prioridade absoluta.
 
-Faithful representation means that the actual effects of the transactions shall be properly accounted for and reported in the financial statements. The words and numbers must match what really happened in the transaction. The ingredients of faithful representation are completeness, neutrality and free from error.
+**Parceria:** Valorizamos a parceria com nossos clientes, trabalhando em estreita colaboração para entender suas necessidades e fornecer soluções sob medida que atendam aos seus requisitos específicos.
 
-## Enhancing Qualitative Characteristics
+# Entre em Contato
 
-### Verifiability
+Estamos ansiosos para conhecer você e discutir como nossos serviços podem ajudar a impulsionar o sucesso do seu negócio. Entre em contato conosco hoje mesmo para agendar uma consulta ou para obter mais informações sobre nossos serviços.
 
-Verifiability implies consensus between the different knowledgeable and independent users of financial information. Such information must be supported by sufficient evidence to follow the principle of objectivity.
 
-### Comparability
-
-Comparability is the uniform application of accounting methods across entities in the same industry. The principle of consistency is under comparability. Consistency is the uniform application of accounting across points in time within an entity.
-
-### Understandability
-
-Understandability means that accounting reports should be expressed as clearly as possible and should be understood by those to whom the information is relevant.
-Timeliness: Timeliness implies that financial information must be presented to the users before a decision is to be made.
-
----
-
-## Statement of cash flows
-
-The statement of cash flows considers the inputs and outputs in concrete cash within a stated period. The general template of a cash flow statement is as follows: Cash Inflow - Cash Outflow + Opening Balance = Closing Balance
-
-| Cash Inflow | Outflow   | Opening Balance |
-| ----------- | --------- | --------------- |
-| _Monday_    | `Tuesday` | **Wednesday**   |
-| 1           | 2         | 3               |
-
-**Example 1:** in the beginning of September, Ellen started out with $5 in her bank account. During that same month, Ellen borrowed $20 from Tom. At the end of the month, Ellen bought a pair of shoes for $7. Ellen's cash flow statement for the month of September looks like this:
-
-- Cash inflow: $20
-- Cash outflow:$7
-- Opening balance: $5
-- Closing balance: $20 – $7 + $5 = $18
-
-**Example 2:** in the beginning of June, WikiTables, a company that buys and resells tables, sold 2 tables. They'd originally bought the tables for $25 each, and sold them at a price of $50 per table. The first table was paid out in cash however the second one was bought in credit terms. WikiTables' cash flow statement for the month of June looks like this:
-
-> **Important:** the cash flow statement only considers the exchange of actual cash, and ignores what the person in question owes or is owed.
-
-## Statement of financial position (balance sheet)
-
-The balance sheet is the financial statement showing a firm's assets, liabilities and equity (capital) at a set point in time, usually the end of the fiscal year reported on the accompanying income statement.
-
-- **fixed assets**
-  - property
-  - building
-  - equipment (such as factory machinery)
-- **intangible assets**
-  - copyrights
-  - trademarks
-  - patents
-    - pending
-    - international
-- goodwill
-
-Owner's equity, sometimes referred to as net assets, is represented differently depending on the type of business ownership. Business ownership can be in the form of a sole proprietorship, partnership, or a corporation. For a corporation, the owner's equity portion usually shows common stock, and retained earnings (earnings kept in the company). Retained earnings come from the retained earnings statement, prepared prior to the balance sheet.
+ <div class="row justify-content-center">
+    <div class="col-auto">
+      <a class="button button-primary" href="{{ "contact" | relative_url }}">Entre em Contato</a>
+    </div>
+</div>

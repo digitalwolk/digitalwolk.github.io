@@ -25,5 +25,32 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Soluções em IAC",
+    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Consultoria Threat Modeling",
+    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Soluções em SIEM",
+    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]
