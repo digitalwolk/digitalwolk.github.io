@@ -1,7 +1,7 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Soluções em SAST",
+    "description": "Aprimore a segurança do seu código com nossas Soluções em SAST: Proteção Avançada contra Vulnerabilidades.",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +9,8 @@
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Soluções em DAST",
+    "description": "Descubra e corrija vulnerabilidades de aplicativos em tempo real com nossas Soluções em DAST: Defesa Poderosa para sua Aplicação",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,8 +18,8 @@
     }
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Soluções em SCA",
+    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
