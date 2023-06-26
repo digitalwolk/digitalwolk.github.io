@@ -19,8 +19,9 @@ Mantenha a segurança incorporada desde a primeira fase do ciclo de vida de dese
 # Desenvolvedores permanecem focados e rápidos
 Alertas em tempo real, lições curtas e de fácil compreensão, e aprendizado contextual significam menos sobrecarga mental e interrupções para suas equipes de desenvolvimento ocupadas.
 
-# Fun and engaging
-Codebashing’s gamification, missions, and competitions build team bonds and spark joy.
+# Divertido e envolvente
+A gamificação, missões e competições do Codebashing constroem laços entre as equipes e despertam alegria.
+
 
 
 ### powered by 
