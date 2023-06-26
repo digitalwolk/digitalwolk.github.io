@@ -4,41 +4,43 @@ date: 2018-11-18T12:33:46+10:00
 weight: 3
 ---
 
-A Checkmarx é uma empresa israelense de software de segurança de aplicação, cuja missão é fornecer às organizações empresariais produtos e serviços de teste de segurança de sistemas e aplicações que capacitem desenvolvedores a fornecer software mais seguro e com mais rapidez. Entre os mais de 1400 clientes da empresa estão cinco dos dez principais fornecedores de software do mundo e muitas organizações da Fortune 500 e do governo, incluindo SAP, Samsung e Salesforce.com.
+## Reduza o risco do seu código aberto
+Os atacantes escondem pacotes maliciosos na cadeia de suprimentos de software de código aberto para proliferar seus ataques. Para manter sua base de código segura, você precisa de informações confiáveis sobre seus pacotes antes de construir o software.
 
-A empresa oferece uma plataforma perfeita para ambientes DevSecOps, redefinindo o papel da segurança no SDLC, tudo isso funcionando na velocidade necessária para seu desenvolvimento e operações. O rápido loop de feedback faz com que os testes de segurança de fragmentos de código novos ou editados sejam ágeis, possibilitando a rápida correção pelos desenvolvedores. Isso reduz significativamente os custos e elimina o problema de ter que lidar com muitas vulnerabilidades de segurança perto do lançamento da aplicação.
 
-![Accounting Services](/images/Marketecture.png)
+![Accounting Services](/images/SCS-Image2.png)
 
-# Protect Every Part of Every Application
+## Receba notificações de pacotes maliciosos
+O Checkmarx SCS monitora todos os pacotes publicados e fornecemos as informações necessárias para proteger sua organização de códigos infectados que os atacantes inseriram em pacotes de código aberto.
 
-Checkmarx One offers a full suite of AST solutions to protect every part of your modern applications: 
+> CONHEÇA SUAS AMEAÇAS
 
-- Static Application Security Testing (SAST)
-- Software Composition Analysis (SCA) 
-- Supply Chain Security (SCS) 
-- API Security
-- Dynamic Application Security Testing (DAST) 
-- Container Security
-- Infrastructure as Code (IaC) Security
+## Identifique o tipo de malware
+Nossa equipe de pesquisa descobre e analisa pacotes publicados para encontrar aqueles que contêm código de criptomineração, ransomware, backdoors, execução remota de código e outros malwares criados com propósitos específicos.
 
-## Find and Fix Security Issues Faster
+## Obtenha uma análise completa de pacotes de código aberto
+O Checkmarx SCS fornece detalhes sobre as táticas, técnicas e procedimentos que os atacantes usam para infiltrar sua cadeia de suprimentos de código aberto.
 
-Our AST solutions work together to seamlessly secure your applications. Using our Fusion engine you can: 
+> APRENDA O DANO QUE UM PACOTE PODE CAUSAR
 
-- Correlate findings between AST solutions to prioritize the most critical vulnerabilities.
-- Identify which vulnerabilities in your open source software are actually exploitable. 
-- Automatically identify and test shadow APIs with API Security and DAST.
-- Use the Application Risk Management module to consolidate vulnerabilities, risk ratings and prioritization guidance across your entire application - portfolio into one comprehensive dashboard
+## Saiba a intenção dos pacotes maliciosos
+Nossa equipe de pesquisa explica o que o código infectado está fazendo, como o download de arquivos prejudiciais, execução de arquivos e comandos, exfiltração de dados ou algum outro tipo de exploração.
 
-## Reduce Management Overhead
-Checkmarx One makes it easier to secure your applications and control AppSec costs with:
+## Mantenha-se informado sobre sua cadeia de suprimentos 24/7
+O Checkmarx SCS oferece atualizações constantes sobre nossas atividades de pesquisa e busca por ameaças para ajudar a criar conscientização. Também fornecemos acesso a um banco de dados de vulnerabilidades e reputações de desenvolvedores.
 
-- Unified dashboards to help you discover and remediate vulnerabilities across AST solutions through a common workflow.
-- A common set of integrations to automate security as part of your development process.
-- Full range of services designed to augment your AppSec team. 
-- Rank your applications by risk for easy prioritization
+> PERMANEÇA VIGILANTE
 
+## Obtenha inteligência de ameaças e elimine a análise manual
+Nossa equipe de pesquisa fornece inteligência de ameaças e elimina a necessidade de você analisar manualmente a reputação do contribuidor, confiabilidade do pacote e integridade comportamental para garantir que você não esteja usando código de fontes questionáveis.
+
+## Incorpore facilmente a inteligência de ameaças às ferramentas e processos existentes
+Assine o Checkmarx Supply Chain Threat Intelligence para manter o mais alto nível de consciência situacional sobre pacotes maliciosos, atores de ameaças e campanhas recentes que infectam a cadeia de suprimentos de software de código aberto.
+
+> FIQUE À FRENTE DAS TTPs DOS ATACANTES
+
+## Garanta que pacotes maliciosos não sejam parte de suas aplicações
+Mantenha-se à frente dos atacantes com atualizações e alertas de inteligência de ameaças em tempo real, realize consultas em massa e obtenha insights valiosos para garantir que suas equipes estejam cada vez mais informadas, para que você possa reduzir o risco e usar com segurança o código aberto nas aplicações nas quais você depende.
 
 # Entre em Contato
 

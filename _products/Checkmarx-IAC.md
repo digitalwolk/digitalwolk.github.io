@@ -4,40 +4,39 @@ date: 2018-11-18T12:33:46+10:00
 weight: 5
 ---
 
-A Checkmarx é uma empresa israelense de software de segurança de aplicação, cuja missão é fornecer às organizações empresariais produtos e serviços de teste de segurança de sistemas e aplicações que capacitem desenvolvedores a fornecer software mais seguro e com mais rapidez. Entre os mais de 1400 clientes da empresa estão cinco dos dez principais fornecedores de software do mundo e muitas organizações da Fortune 500 e do governo, incluindo SAP, Samsung e Salesforce.com.
+## Tenha uma verificação de infraestrutura como código (iac) escalável e baseada em plataforma
+O Checkmarx IaC Security simplifica a análise de código de arquivos IaC e correlaciona os resultados com a plataforma de segurança de aplicativos Checkmarx One™.
 
-A empresa oferece uma plataforma perfeita para ambientes DevSecOps, redefinindo o papel da segurança no SDLC, tudo isso funcionando na velocidade necessária para seu desenvolvimento e operações. O rápido loop de feedback faz com que os testes de segurança de fragmentos de código novos ou editados sejam ágeis, possibilitando a rápida correção pelos desenvolvedores. Isso reduz significativamente os custos e elimina o problema de ter que lidar com muitas vulnerabilidades de segurança perto do lançamento da aplicação.
+![Accounting Services](/images/IaC-image1.png)
 
-![Accounting Services](/images/Marketecture.png)
+## Experimente o IaC Security como parte da nossa plataforma AppSec
+Procure automaticamente por configurações inseguras que possam expor suas aplicações, dados ou serviços a ataques, e obtenha uma compreensão visual melhor dos resultados da verificação por meio da plataforma Checkmarx One.
 
-# Protect Every Part of Every Application
+> OBTENHA O PODER DO IaC BASEADO EM PLATAFORMA
 
-Checkmarx One offers a full suite of AST solutions to protect every part of your modern applications: 
+## Visualize e gerencie os resultados da verificação de IaC
+Gerencie o status das descobertas da verificação e visualize, altere, manipule e analise os resultados facilmente. Sua equipe pode escrever e implantar arquivos IaC com segurança, pois você pode revisá-los antes de implementá-los.
 
-- Static Application Security Testing (SAST)
-- Software Composition Analysis (SCA) 
-- Supply Chain Security (SCS) 
-- API Security
-- Dynamic Application Security Testing (DAST) 
-- Container Security
-- Infrastructure as Code (IaC) Security
+## IaC Security como um serviço
+Dispare verificações e obtenha resultados por meio do Checkmarx One, ou faça das verificações de IaC uma etapa no pipeline de CI/CD para iniciar as verificações. Obtenha uma solução rápida e escalável que torne a verificação de IaC uma parte sem atritos de seus fluxos de trabalho existentes.
 
-## Find and Fix Security Issues Faster
+## Simplifique sua segurança de IaC
+Correlacione os resultados com outros motores de verificação
+Use o Checkmarx Fusion para correlacionar os resultados da verificação de IaC com as descobertas de outros motores de verificação, deixando claro quais problemas devem ser priorizados. Não é mais necessário lidar com uma avalanche de alertas tentando descobrir quais são os mais importantes.
 
-Our AST solutions work together to seamlessly secure your applications. Using our Fusion engine you can: 
+## Ampla cobertura permite uma segurança de IaC contínua
+Encontra vulnerabilidades, problemas de conformidade e configurações incorretas em soluções de IaC como Terraform, Kubernetes, Docker, AWS CloudFormation, Ansible, Helm, Google Deployment Manager, AWS SAM, Microsoft ARM e especificações OpenAPI 3.0 com mais de 2.000 consultas personalizáveis.
 
-- Correlate findings between AST solutions to prioritize the most critical vulnerabilities.
-- Identify which vulnerabilities in your open source software are actually exploitable. 
-- Automatically identify and test shadow APIs with API Security and DAST.
-- Use the Application Risk Management module to consolidate vulnerabilities, risk ratings and prioritization guidance across your entire application - portfolio into one comprehensive dashboard
+> FAÇA SUAS SOLUÇÕES TRABALHAREM JUNTAS
 
-## Reduce Management Overhead
-Checkmarx One makes it easier to secure your applications and control AppSec costs with:
+## Conecte-se com o GitHub, GitLab, Jira e muito mais
+Inclui integrações nativas com repositórios populares como GitHub e GitLab, e soluções de feedback como Jira, o que permite a criação de um ticket para gerenciar os resultados da verificação no GitHub, por exemplo.
 
-- Unified dashboards to help you discover and remediate vulnerabilities across AST solutions through a common workflow.
-- A common set of integrations to automate security as part of your development process.
-- Full range of services designed to augment your AppSec team. 
-- Rank your applications by risk for easy prioritization
+### powered by 
+
+![Checkmarx](/images/logo/Checkmarx%20logo%2B%20slogan.svg)
+
+A Checkmarx é a principal provedora de segurança de aplicativos (AppSec), oferecendo a plataforma nativa em nuvem mais abrangente da indústria, o Checkmarx OneTM. Seus produtos e serviços permitem que as empresas protejam todas as fases do desenvolvimento de cada aplicativo, ao mesmo tempo em que equilibram as necessidades dinâmicas de CISOs, equipes de segurança e equipes de desenvolvimento.
 
 
 # Entre em Contato

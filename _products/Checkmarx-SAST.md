@@ -8,37 +8,42 @@ A Checkmarx é uma empresa israelense de software de segurança de aplicação, 
 
 A empresa oferece uma plataforma perfeita para ambientes DevSecOps, redefinindo o papel da segurança no SDLC, tudo isso funcionando na velocidade necessária para seu desenvolvimento e operações. O rápido loop de feedback faz com que os testes de segurança de fragmentos de código novos ou editados sejam ágeis, possibilitando a rápida correção pelos desenvolvedores. Isso reduz significativamente os custos e elimina o problema de ter que lidar com muitas vulnerabilidades de segurança perto do lançamento da aplicação.
 
-![Accounting Services](/images/Marketecture.png)
+![Accounting Services](/images/SAST-Image2.png)
 
-# Protect Every Part of Every Application
+# Proteja cada parte de cada aplicação
 
-Checkmarx One offers a full suite of AST solutions to protect every part of your modern applications: 
+O Checkmarx One oferece uma suíte completa de soluções de AST para proteger todas as partes das suas aplicações modernas:
 
-- Static Application Security Testing (SAST)
-- Software Composition Analysis (SCA) 
-- Supply Chain Security (SCS) 
-- API Security
-- Dynamic Application Security Testing (DAST) 
-- Container Security
-- Infrastructure as Code (IaC) Security
+- Teste Estático de Segurança de Aplicativos (SAST)
+- Análise de Composição de Software (SCA)
+- Segurança da Cadeia de Suprimentos (SCS)
+- Segurança de API
+- Teste Dinâmico de Segurança de Aplicativos (DAST)
+- Segurança de Contêineres
+- Segurança de Infraestrutura como Código (IaC)
 
-## Find and Fix Security Issues Faster
+## Encontre e Corrija Problemas de Segurança Mais Rapidamente
+Nossas soluções de AST trabalham juntas para garantir suas aplicações de forma integrada. Com o uso do nosso motor Fusion, você pode:
 
-Our AST solutions work together to seamlessly secure your applications. Using our Fusion engine you can: 
+- Correlacionar resultados entre as soluções de AST para priorizar as vulnerabilidades mais críticas.
+- Identificar quais vulnerabilidades no seu software de código aberto são realmente exploráveis.
+- Identificar e testar automaticamente APIs ocultas com a segurança de API e DAST.
+- Usar o módulo de Gerenciamento de Risco de Aplicação para consolidar vulnerabilidades, classificações de risco e orientações de priorização em um único painel abrangente.
 
-- Correlate findings between AST solutions to prioritize the most critical vulnerabilities.
-- Identify which vulnerabilities in your open source software are actually exploitable. 
-- Automatically identify and test shadow APIs with API Security and DAST.
-- Use the Application Risk Management module to consolidate vulnerabilities, risk ratings and prioritization guidance across your entire application - portfolio into one comprehensive dashboard
+## Reduza a Sobrecarga de Gerenciamento
+O Checkmarx One facilita a segurança de suas aplicações e o controle dos custos de AppSec com:
 
-## Reduce Management Overhead
-Checkmarx One makes it easier to secure your applications and control AppSec costs with:
+- Painéis unificados para ajudar a descobrir e remediar vulnerabilidades em soluções de AST por meio de um fluxo de trabalho comum.
+- Um conjunto comum de integrações para automatizar a segurança como parte do seu processo de desenvolvimento.
+- Ampla gama de serviços projetados para complementar sua equipe de AppSec.
+- Classifique suas aplicações por risco para facilitar a priorização.
 
-- Unified dashboards to help you discover and remediate vulnerabilities across AST solutions through a common workflow.
-- A common set of integrations to automate security as part of your development process.
-- Full range of services designed to augment your AppSec team. 
-- Rank your applications by risk for easy prioritization
+### powered by 
 
+
+![Checkmarx](/images/logo/Checkmarx%20logo%2B%20slogan.svg)
+
+A Checkmarx é a principal provedora de segurança de aplicativos (AppSec), oferecendo a plataforma nativa em nuvem mais abrangente da indústria, o Checkmarx OneTM. Seus produtos e serviços permitem que as empresas protejam todas as fases do desenvolvimento de cada aplicativo, ao mesmo tempo em que equilibram as necessidades dinâmicas de CISOs, equipes de segurança e equipes de desenvolvimento.
 
 # Entre em Contato
 
