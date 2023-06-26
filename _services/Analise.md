@@ -1,14 +1,14 @@
 ---
-title: "Análise de segurança de aplicativos"
+title: "Análise de segurança de aplicações"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
 ---
 
 Nossa análise de segurança de aplicativos oferece uma avaliação minuciosa da segurança do seu aplicativo, identificando e abordando possíveis vulnerabilidades que possam comprometer a integridade e a confidencialidade dos dados.
 
-![Accounting Services](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
+![Análise de segurança de aplicações](/images/adi-goldstein-EUsVwEOsblE-unsplash.jpg)
 
-# O que inclui a Análise de Segurança de Aplicativos?
+## O que inclui a Análise de Segurança de Aplicativos?
 
 Financial accounting and financial reporting are often used as synonyms.
 

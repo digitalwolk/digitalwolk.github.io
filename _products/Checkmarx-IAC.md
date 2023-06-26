@@ -7,7 +7,7 @@ weight: 5
 ## Tenha uma verificação de infraestrutura como código (iac) escalável e baseada em plataforma
 O Checkmarx IaC Security simplifica a análise de código de arquivos IaC e correlaciona os resultados com a plataforma de segurança de aplicativos Checkmarx One™.
 
-![Accounting Services](/images/IaC-image1.png)
+![Checkmarx IAC](/images/IaC-image1.png)
 
 ## Experimente o IaC Security como parte da nossa plataforma AppSec
 Procure automaticamente por configurações inseguras que possam expor suas aplicações, dados ou serviços a ataques, e obtenha uma compreensão visual melhor dos resultados da verificação por meio da plataforma Checkmarx One.
