@@ -4,6 +4,7 @@ date: 2018-11-19T10:47:58+10:00
 image: "images/team/cassio-batista.jpeg"
 jobtitle: "Accounting Partner"
 linkedinurl: "https://www.linkedin.com/in/cassiodeveloper/"
+promoted: 
 weight: 2
 ---
 
