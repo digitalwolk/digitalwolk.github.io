@@ -32,7 +32,7 @@
   {
     "title": "Interactive Application Security Testing",
     "url": "products/Checkmarx-IAC/",
-    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
+    "description": "Procure automaticamente por configurações inseguras que possam expor suas aplicações, dados ou serviços a ataques, e obtenha uma compreensão visual melhor dos resultados da verificação por meio do IaC.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
@@ -42,7 +42,7 @@
   {
     "title": "Secure Coding Education and Training",
     "url": "products/Checkmarx-Codebashing/",
-    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
+    "description": "Desenvolvidas pensando nos desenvolvedores, nossas aulas são projetadas para se adequar à forma como os desenvolvedores trabalham, com trilhas de aprendizado personalizáveis e a maior e mais atualizada biblioteca de treinamento em todas as principais linguagens de programação.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,

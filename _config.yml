@@ -14,16 +14,21 @@ home:
   limit_services: 6
 
 collections:
-  services:
+  products:
     output: true
     sort_by: weight
-  products:
+  services:
     output: true
     sort_by: weight
   team:
     output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
   - scope:
       path: ""
       type: "services"
@@ -34,11 +39,7 @@ defaults:
       type: "team"
     values:
       layout: "team"
-  - scope:
-      path: ""
-      type: "products"
-    values:
-      layout: "product"
+
 
 
 sass:
