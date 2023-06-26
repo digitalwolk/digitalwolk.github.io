@@ -4,6 +4,7 @@ date: 2018-11-19T10:47:58+10:00
 image: "images/team/gilmar-rodrigues.jpeg"
 jobtitle: "Business Partner"
 linkedinurl: "https://www.linkedin.com/in/junior-rodrigues-b3a682213/"
+promoted: 
 weight: 3
 ---
 
