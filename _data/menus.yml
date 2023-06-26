@@ -19,3 +19,12 @@ footer:
   - name: "Contato"
     url: "/contact/"
     weight: 2
+  - name: "Time"
+    url: "/team/"
+    weight: 3
+  - name: "Sobre"
+    url: "/about/"
+    weight: 4
+  - name: "Contato"
+    url: "/contact/"
+    weight: 5
