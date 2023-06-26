@@ -7,6 +7,11 @@ bodyClass: "page-team"
   <div class="row justify-content-start">
     <div class="col-12 col-md-8">
       <div class="team team-single">
+        {% if page.image %}
+        <div class="team-image">
+            <img width="360" height="360" alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | relative_url }}" />
+        </div>
+        {% endif %}
         <h1 class="title">{{page.title}}</h1>
         <div class="content">{{content}}</div>
       </div>

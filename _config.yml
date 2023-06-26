@@ -17,6 +17,9 @@ collections:
   services:
     output: true
     sort_by: weight
+  products:
+    output: true
+    sort_by: weight
   team:
     output: true
 
@@ -31,6 +34,11 @@ defaults:
       type: "team"
     values:
       layout: "team"
+  - scope:
+      path: ""
+      type: "products"
+    values:
+      layout: "product"
 
 
 sass:

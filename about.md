@@ -8,7 +8,7 @@ bodyClass: page-about
 Somos uma empresa especializada em soluções de cibersegurança, dedicada a fornecer serviços e produtos de alta qualidade para proteger as organizações contra ameaças cibernéticas. Com uma equipe de especialistas em segurança digital altamente qualificados e apaixonados pelo que fazem, estamos comprometidos em oferecer soluções excepcionais e resultados excepcionais.
 
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+![Accounting Services](/images/brandmark-design-1920x1720.png)
 
 # Nossa Missão
 

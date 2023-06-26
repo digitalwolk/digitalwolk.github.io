@@ -1,7 +1,8 @@
 [
   {
-    "title": "Soluções em SAST",
+    "title": "Static Application Security Testing",
     "description": "Aprimore a segurança do seu código com nossas Soluções em SAST: Proteção Avançada contra Vulnerabilidades.",
+    "url": "products/Checkmarx-SAST/",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
@@ -9,8 +10,9 @@
     }
   },
   {
-    "title": "Soluções em DAST",
+    "title": "Dynamic Application Security Testing",
     "description": "Descubra e corrija vulnerabilidades de aplicativos em tempo real com nossas Soluções em DAST: Defesa Poderosa para sua Aplicação",
+    "url": "products/Checkmarx-DAST/",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
@@ -18,7 +20,8 @@
     }
   },
   {
-    "title": "Soluções em SCA",
+    "title": "Software Composition Analysis",
+    "url": "products/Checkmarx-SCA/",
     "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
@@ -27,7 +30,8 @@
     }
   },
   {
-    "title": "Soluções em IAC",
+    "title": "Interactive Application Security Testing",
+    "url": "products/Checkmarx-IAC/",
     "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
@@ -36,16 +40,8 @@
     }
   },
   {
-    "title": "Consultoria Threat Modeling",
-    "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
-    "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Soluções em SIEM",
+    "title": "Secure Coding Education and Training",
+    "url": "products/Checkmarx-Codebashing/",
     "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",

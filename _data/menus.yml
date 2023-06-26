@@ -1,4 +1,7 @@
 main:
+  - name: "Produtos"
+    url: "/products/"
+    weight: 1
   - name: "Serviços"
     url: "/services/"
     weight: 2
