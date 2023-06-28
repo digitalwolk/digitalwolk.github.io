@@ -2,7 +2,22 @@
   width: 100%;
   height: auto;
   display: block;
-  margin-top: -370px;
+  margin-top: -80px;
+
+  @include media-breakpoint-up(sm) {
+    margin-top: -150px;
+  }
+  @include media-breakpoint-up(md) {
+    margin-top: -370px;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-top: -470px;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-top: -570px;
+  }
+
+
 }
 .intro-image-absolute {
   max-width: none;
