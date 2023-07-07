@@ -4,8 +4,8 @@ date: 2018-11-19T10:47:58+10:00
 image: "images/team/cassio-batista.jpeg"
 jobtitle: "Business Partner"
 linkedinurl: "https://www.linkedin.com/in/cassiodeveloper/"
-promoted: true
-weight: 2
+promoted: false
+weight: 3
 ---
 
 O Cássio Batista é um parceiro de negócios altamente experiente e comprometido em impulsionar o sucesso das empresas com as quais trabalha. Com um histórico sólido de conquistas no setor empresarial, o Cássio oferece expertise em estratégia, desenvolvimento de negócios e parcerias estratégicas.
