@@ -9,6 +9,10 @@ logo:
   desktop: "images/logo/logo_azul.svg"
   desktop_height: "70px"
   desktop_width: "70px"
+  footer: "images/logo/logo_full_branco.svg"
+  footer_height: "280px"
+  footer_width: "280px"
+  
 
 home: 
   limit_services: 6

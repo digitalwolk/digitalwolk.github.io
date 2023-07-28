@@ -3,7 +3,11 @@
     <div class="row">
       <div class="col-12">
         <div class="footer-inner">
-          <h2 class="footer-title">{{site.title}}</h2>
+          <h2 class="footer-title">
+            <div class="logo">
+              <a href="{{ site.baseurl }}"><img width="{{ site.logo.footer_width }}" height="{{ site.logo.footer_height }}" alt="{{ site.title }}" src="{{ site.logo.footer | relative_url }}" /></a>
+            </div>
+          </h2>
           <ul>
             {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
             {% for item in footermenu %}
@@ -13,6 +17,7 @@
             {% endfor %}
           </ul>
         </div>
+        {% include sub-footer.html %}
       </div>
     </div>
   </div>

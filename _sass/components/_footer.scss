@@ -1,7 +1,7 @@
 .footer {
   background: $footer-background-color;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   .footer-inner {
     display: flex;
     justify-content: space-between;
@@ -25,8 +25,12 @@
   }
   ul {
     list-style: none;
+    display: inline;
     margin: 0;
     padding: 0;
+    text-align: justify;
+    width: 100%;
+    justify-content: space-evenly;
     li {
       color: $footer-text-color;
       font-size: 1rem;
@@ -47,7 +51,6 @@
       margin: 0;
       padding: 0;
       align-items: center;
-      justify-content: flex-end;
       li {
         list-style: none;
         margin-right: 10px;
