@@ -1,6 +1,6 @@
 [
   {
-    "title": "Static Application Security Testing",
+    "title": "Static Application Security Testing (SAST)",
     "description": "Aprimore a segurança do seu código com nossas Soluções em SAST: Proteção Avançada contra Vulnerabilidades.",
     "url": "products/Checkmarx-SAST/",
     "image": {
@@ -10,7 +10,7 @@
     }
   },
   {
-    "title": "Dynamic Application Security Testing",
+    "title": "Dynamic Application Security Testing (DAST)",
     "description": "Descubra e corrija vulnerabilidades de aplicativos em tempo real com nossas Soluções em DAST: Defesa Poderosa para sua Aplicação",
     "url": "products/Checkmarx-DAST/",
     "image": {
@@ -20,7 +20,7 @@
     }
   },
   {
-    "title": "Software Composition Analysis",
+    "title": "Software Composition Analysis (SCA)",
     "url": "products/Checkmarx-SCA/",
     "description": "Eleve a segurança do seu software com nossas Soluções em SCA: Análise Abrangente de Componentes para uma Aplicação Impecável.",
     "image": {
@@ -30,7 +30,7 @@
     }
   },
   {
-    "title": "Interactive Application Security Testing",
+    "title": "Interactive Application Security Testing (IAST)",
     "url": "products/Checkmarx-IAC/",
     "description": "Procure automaticamente por configurações inseguras que possam expor suas aplicações, dados ou serviços a ataques, e obtenha uma compreensão visual melhor dos resultados da verificação por meio do IaC.",
     "image": {
@@ -40,7 +40,7 @@
     }
   },
   {
-    "title": "Secure Coding Education and Training",
+    "title": "Secure Coding Education and Training (SCE)",
     "url": "products/Checkmarx-Codebashing/",
     "description": "Desenvolvidas pensando nos desenvolvedores, nossas aulas são projetadas para se adequar à forma como os desenvolvedores trabalham, com trilhas de aprendizado personalizáveis e a maior e mais atualizada biblioteca de treinamento em todas as principais linguagens de programação.",
     "image": {
@@ -50,7 +50,7 @@
     }
   },
   {
-    "title": "Integrated cloud email security",
+    "title": "Integrated cloud email security (ICES)",
     "url": "products/IronScales/",
     "description": "IRONSCALES™ é uma plataforma integrada de segurança de e-mail em nuvem (ICES) que fornece às organizações uma solução completa para segurança de e-mail empresarial.",
     "image": {
