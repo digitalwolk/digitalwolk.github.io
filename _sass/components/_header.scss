@@ -1,9 +1,14 @@
 .header {
   color: $primary;
-  background-color: $primary;
+  background-color: $white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0 -10px 10px 4px rgba(0,0,0,0.5);
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
   // border-bottom: 1px solid $primary;
   padding: 10px 0px;

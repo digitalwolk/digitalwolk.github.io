@@ -3,12 +3,12 @@ permalink: pretty
 title: 'digitalwolk'
 
 logo:
-  mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  mobile: "images/logo/logo_azul.svg"
+  mobile_height: "70px"
+  mobile_width: "70px"
+  desktop: "images/logo/logo_azul.svg"
+  desktop_height: "70px"
+  desktop_width: "70px"
 
 home: 
   limit_services: 6

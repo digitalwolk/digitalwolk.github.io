@@ -64,6 +64,7 @@ $colors: map-merge(
   $colors
 );
 
+$hamburger-active-layer-color: $primary !default;
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;

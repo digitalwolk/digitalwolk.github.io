@@ -15,11 +15,11 @@
 
 .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:80px;
+	height:80px;
 	bottom:40px;
-	right:40px;
-	background-color:#25d366;
+	right:15px;
+	background-color:#00b5f9;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
@@ -30,10 +30,6 @@
 
 a.float:hover{
   text-decoration:none;
-  background-color:#00c853;
+  background-color:#00b5f9;
   color:#FFF;
-}
-
-.my-float{
-	margin-top:16px;
 }

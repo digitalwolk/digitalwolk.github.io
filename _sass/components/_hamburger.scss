@@ -3,6 +3,7 @@
   outline: none;
   z-index: 30;
   cursor: pointer;
+  
   @include media-breakpoint-up(md) {
     display: none;
   }
@@ -12,16 +13,19 @@
   .hamburger-inner,
   .hamburger-inner::before,
   .hamburger-inner::after {
-    background: $white;
+    background: $primary;
   }
   .hamburger-inner::after {
     width: 18px;
     right: 0;
+    
+    background: $primary;
   }
   &.is-active {
     .hamburger-inner::after {
       width: inherit;
       right: unset;
+     background: $primary;
     }
   }
 }
