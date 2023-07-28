@@ -48,5 +48,15 @@
       "width": 80,
       "height": 80
     }
+  },
+  {
+    "title": "Integrated cloud email security",
+    "url": "products/IronScales/",
+    "description": "IRONSCALES™ é uma plataforma integrada de segurança de e-mail em nuvem (ICES) que fornece às organizações uma solução completa para segurança de e-mail empresarial.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
   }
 ]

@@ -4,41 +4,22 @@ bodyClass: "page-home"
 ---
 
 <div class="intro home">
-      {% if page.intro_image %}
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
-      {% endif %}
-    </div>
-
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-            </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">Confira nossos serviços</a>
-      </div>
-    </div>
-  </div>
+  {% if page.intro_image %}
+    <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+  {% endif %}
 </div>
+
 
 {% if site.data.features %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="feature-header">
+      <h1>Conheça nossos produtos</h1>
+      <p>
+        Na nossa busca contínua por oferecer soluções de segurança de aplicativos de alta qualidade, nos orgulhamos de sermos parceiros de renomadas empresas como CHECKMARX e IRONSCALES. 
+      </p>
+    </div>
     <div class="row justify-content-center">
-
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
@@ -52,8 +33,49 @@ bodyClass: "page-home"
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
+   
+    <div class="cta-btn">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "products" | relative_url }}">Confira nossos produtos</a>
+      </div>
+    </div>
 </div>
 {% endif %}
+    
+
+<div class="strip">
+  <div class="container pt-6 pb-6 pb-md-10">
+    <div class="feature-header">
+      <h1>Conheça nossos serviços</h1>
+      <p>
+        Nossos serviços de Application Security oferecem soluções abrangentes para proteger seus aplicativos contra ameaças cibernéticas. 
+      </p>
+    </div>
+    <div class="row justify-content-start">
+      {% assign limit = site.home.limit_services | default: 6 %}
+      {% for service in site.services limit: limit %}
+      <div class="col-12 col-md-4 mb-1">
+        <div class="feature service shadow">
+          <div class="service service-summary">
+            <div class="service-content">
+              <h2 class="service-title">
+                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              </h2>
+              <p>{{ service.content | markdownify | strip_html | truncate: 300 }}</p>
+            </div>
+          </div>
+      </div>
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+  <div class="cta-btn">
+    <div class="col-auto">
+      <a class="button button-primary" href="{{ "services" | relative_url }}">Confira nossos serviços</a>
+    </div>
+  </div>
+
+</div>
