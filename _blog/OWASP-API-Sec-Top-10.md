@@ -5,6 +5,7 @@ image: "/images/blog/OWASP_logo.png"
 weight: 3
 ---
 
+![OWASP](/images/blog/OWASP_logo.png)
 
 A OWASP [anunciou](https://owasp.org/www-project-api-security/announcements/2023/02/api-top10-2023rc) recentemente que o release candidate OWASP API Security Top 10 já está disponível para revisão e contribuição em sua página do GitHub. 
 
@@ -21,3 +22,6 @@ A OWASP [anunciou](https://owasp.org/www-project-api-security/announcements/2023
 - Improper Assets Management
 - Unsafe Consumption of APIs
 
+
+## Referência
+[OWASP API Security Top 10 2023](https://owasp.org/www-project-api-security/){:target="_blank"}

@@ -22,3 +22,9 @@ Profissionais debatendo as mais variadas formas de tornar um software mais segur
 - [Castbox](https://castbox.fm/channel/id2535704){:target="_blank"}
 - [RSS](https://www.spreaker.com/show/4179006/episodes/feed){:target="_blank"}
 
+
+## Referências
+
+[DEVSECOPS Podcast](https://devsecopspodcast.com.br/){:target="_blank"}
+
+[Cássio Batista Pereira]( https://linktr.ee/cassiodeveloper){:target="_blank"}
