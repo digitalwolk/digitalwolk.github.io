@@ -14,12 +14,13 @@ main:
   - name: "Sobre"
     url: "/about/"
     weight: 5
-  - name: "Contato"
-    url: "/contact/"
-    weight: 6
   - name: "Blog"
     url: "/blog/"
+    weight: 6
+  - name: "Contato"
+    url: "/contact/"
     weight: 7
+
 
 footer:
   - name: "Home"
@@ -37,9 +38,9 @@ footer:
   - name: "Sobre"
     url: "/about/"
     weight: 5
-  - name: "Contato"
-    url: "/contact/"
-    weight: 6
   - name: "Blog"
     url: "/blog/"
+    weight: 6
+  - name: "Contato"
+    url: "/contact/"
     weight: 7
