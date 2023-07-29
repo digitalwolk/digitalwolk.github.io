@@ -1,0 +1,43 @@
+---
+layout: default
+bodyClass: "page-blog"
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-12 order-2 order-md-1">
+        {{ content }}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.title }}
+          class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}"
+          src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-6 pb-6">
+  <div class="row">
+    {% for post in site.blog %}
+    <div class="col-12 col-md-4 mb-3">
+      <a href="{{ post.url | relative_url }}">
+        <div class="post shadow">
+          {% if post.image %}
+          <img class="post-image" alt="{{ post.title}}" src="{{ post.image }}" alt="">
+          {% endif %}
+          <div class="post-content">
+            <h2 class="post-title">
+              {{ post.title }}
+            </h2>
+            <p>{{ post.content | markdownify | strip_html | truncate: 200 }}</p>
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+  </div>
+</div>

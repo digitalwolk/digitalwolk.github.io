@@ -17,6 +17,9 @@ main:
   - name: "Contato"
     url: "/contact/"
     weight: 6
+  - name: "Blog"
+    url: "/blog/"
+    weight: 7
 
 footer:
   - name: "Home"
@@ -37,3 +40,6 @@ footer:
   - name: "Contato"
     url: "/contact/"
     weight: 6
+  - name: "Blog"
+    url: "/blog/"
+    weight: 7
