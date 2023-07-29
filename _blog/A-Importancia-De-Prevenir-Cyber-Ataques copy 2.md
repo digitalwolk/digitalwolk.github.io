@@ -1,9 +1,11 @@
 ---
 title: "A Importância De Prevenir Cyber Ataques"
 date: 2018-11-18T12:33:46+10:00
-image: "/images/codebashing.png"
-weight: 4
+image: "/images/blog/tsmc.png"
+weight: 2
 ---
+
+![TSMC](/images/blog/tsmc.png) <sub>*Taiwan, on June 6, 2023. Photo: Bloomberg*</sub>
 
 ## TL;DR
 O recente ataque cibernético à TSMC, a maior fabricante de chips do mundo, destaca a importância crucial da prevenção de ataques cibernéticos. Com a dependência global de seus produtos, interrupções nas operações da TSMC podem afetar várias indústrias. Além disso, o roubo de tecnologia e a escassez de chips agravam ainda mais os impactos econômicos. É essencial investir em segurança cibernética, atualizar sistemas, treinar colaboradores e estabelecer parcerias confiáveis para proteger nossas organizações e a economia como um todo. Juntos, podemos criar um ambiente virtual mais seguro.

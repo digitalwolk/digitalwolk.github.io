@@ -2,7 +2,7 @@
 title: "OWASP API Security Top 10 - 2023"
 date: 2018-11-18T12:33:46+10:00
 image: "/images/blog/OWASP_logo.png"
-weight: 4
+weight: 3
 ---
 
 
