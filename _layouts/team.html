@@ -2,20 +2,13 @@
 layout: default
 bodyClass: "page-team"
 ---
-
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-8">
-      <div class="team team-single">
-        {% if page.image %}
-        <div class="team-image">
-            <img width="360" alt="{{ page.title }}" class="img-fluid mb-2" src="{{ page.image | relative_url }}" />
-        </div>
-        {% endif %}
-        <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
-      </div>
-    </div>
-  </div>
-  
-</div>
+<section class="page-header">
+  <div class="container"><div class="inner">
+    {% if page.image %}<img src="{{ page.image | relative_url }}" alt="Foto de {{ page.title }}" width="120" height="120" style="border-radius:var(--r-lg);object-fit:cover">{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.jobtitle }}</p>
+  </div></div>
+</section>
+<div class="container"><div class="prose">{{ content }}
+  {% if page.linkedinurl %}<p><a href="{{ page.linkedinurl }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>{% endif %}
+</div></div>

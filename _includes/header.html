@@ -1,12 +1,18 @@
-<div class='header'>
+<header class="site-header">
   <div class="container">
-    <div class="logo">
-      <a href="{{ '/' | relative_url }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-    </div>
-    <div class="logo-mobile">
-      <a href="{{ '/' | relative_url }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="digitalwolk, página inicial">
+      <img src="{{ '/images/logo/logo_azul.svg' | relative_url }}" alt="" width="40" height="40">
+      <span>digitalwolk</span>
+    </a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <ul>
+        {% assign mainmenu = site.data.menus.main | sort: 'weight' %}
+        {% for item in mainmenu %}{% if item.url != '/contact/' %}
+        <li class="{% if item.url == page.url %}active{% endif %}"><a class="link" href="{{ item.url | relative_url }}">{{ item.name }}</a></li>
+        {% endif %}{% endfor %}
+      </ul>
+      <a class="btn btn-primary btn-sm" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
+    </nav>
   </div>
-</div>
+</header>

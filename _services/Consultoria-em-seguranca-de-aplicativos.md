@@ -1,7 +1,8 @@
 ---
 title: "Consultoria em segurança de aplicativos"
 date: 2019-04-18T12:33:46+10:00
-weight: 6
+weight: 5
+summary: "Montamos o programa de segurança de aplicações que cabe no seu time."
 ---
 
 Fornecimento de consultoria especializada para ajudar as empresas a desenvolver estratégias eficazes de segurança de aplicativos e implementar medidas de proteção adequadas.
