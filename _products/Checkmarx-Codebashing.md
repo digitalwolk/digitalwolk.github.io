@@ -2,6 +2,7 @@
 title: "Codebashing"
 date: 2018-11-18T12:33:46+10:00
 weight: 4
+summary: "Seu time de desenvolvimento aprende a corrigir falhas na prática, sem esforço."
 ---
 
 Desenvolva as habilidades de codificação segura da sua equipe de desenvolvimento, sem esforço.

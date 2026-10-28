@@ -2,6 +2,7 @@
 title: "Checkmarx SCA"
 date: 2018-11-18T12:33:46+10:00
 weight: 3
+summary: "Saiba quais bibliotecas de código aberto você usa e quais delas trazem risco."
 ---
 
 # Mantenha os riscos do código aberto sob controle

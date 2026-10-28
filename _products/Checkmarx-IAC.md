@@ -2,6 +2,7 @@
 title: "Checkmarx IAC"
 date: 2018-11-18T12:33:46+10:00
 weight: 5
+summary: "Detecte configurações inseguras em arquivos de infraestrutura antes de irem para a nuvem."
 ---
 
 ## Tenha uma verificação de infraestrutura como código (iac) escalável e baseada em plataforma

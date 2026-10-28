@@ -2,6 +2,7 @@
 title: "Supply Chain Security"
 date: 2018-11-18T12:33:46+10:00
 weight: 3
+summary: "Reduza o risco do código aberto que entra na sua cadeia de suprimentos de software."
 ---
 
 ## Reduza o risco do seu código aberto
