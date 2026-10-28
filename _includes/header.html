@@ -1,9 +1,3 @@
-<div class="utility">
-  <div class="container">
-    <span><strong>Parceira Checkmarx</strong><span class="hide-sm"> para segurança de aplicações</span></span>
-    <span><a href="{{ '/blog/' | relative_url }}">Blog</a><a href="{{ '/about/' | relative_url }}">Sobre</a><a href="{{ '/contact/' | relative_url }}">Contato</a></span>
-  </div>
-</div>
 <header class="site-header">
   <div class="container">
     <a class="brand" href="{{ '/' | relative_url }}" aria-label="digitalwolk, página inicial">
@@ -27,6 +21,7 @@
           </div>
         </li>
         <li class="top{% if page.url contains '/team' %} active{% endif %}"><a href="{{ '/team/' | relative_url }}">Time</a></li>
+        <li class="top{% if page.url contains '/about' %} active{% endif %}"><a href="{{ '/about/' | relative_url }}">Sobre</a></li>
         <li class="top{% if page.url contains '/blog' %} active{% endif %}"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
       </ul>
       <a class="btn btn-primary btn-sm" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
