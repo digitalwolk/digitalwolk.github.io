@@ -1,12 +1,30 @@
-<div class='header'>
+<header class="site-header">
   <div class="container">
-    <div class="logo">
-      <a href="{{ '/' | relative_url }}"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-    </div>
-    <div class="logo-mobile">
-      <a href="{{ '/' | relative_url }}"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
-    </div>
-    {% include main-menu.html %}
-    {% include hamburger.html %}
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="digitalwolk, página inicial">
+      <img src="{{ '/images/logo/logo_azul.svg' | relative_url }}" alt="" width="38" height="38">
+      <span>digitalwolk</span>
+    </a>
+    <button class="menu-btn" id="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><i></i></button>
+    <nav class="nav" id="nav" aria-label="Principal">
+      <ul>
+        <li class="top has-menu{% if page.url contains '/services' %} active{% endif %}">
+          <button type="button" aria-haspopup="true">Serviços</button>
+          <div class="menu">
+            {% assign svc = site.services | sort: 'weight' %}
+            {% for s in svc %}<a href="{{ s.url | relative_url }}"><b>{{ s.title }}</b><span>{{ s.summary }}</span></a>{% endfor %}
+          </div>
+        </li>
+        <li class="top has-menu{% if page.url contains '/products' %} active{% endif %}">
+          <button type="button" aria-haspopup="true">Produtos</button>
+          <div class="menu">
+            {% for f in site.data.features %}<a href="{{ f.url | relative_url }}"><b>{{ f.title }}</b><span>{{ f.description }}</span></a>{% endfor %}
+          </div>
+        </li>
+        <li class="top{% if page.url contains '/team' %} active{% endif %}"><a href="{{ '/team/' | relative_url }}">Time</a></li>
+        <li class="top{% if page.url contains '/about' %} active{% endif %}"><a href="{{ '/about/' | relative_url }}">Sobre</a></li>
+        <li class="top{% if page.url contains '/blog' %} active{% endif %}"><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+      </ul>
+      <a class="btn btn-primary btn-sm" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
+    </nav>
   </div>
-</div>
+</header>

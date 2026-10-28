@@ -2,6 +2,7 @@
 title: "Checkmarx SAST"
 date: 2018-11-18T12:33:46+10:00
 weight: 1
+summary: "Encontre falhas no código-fonte antes do deploy, direto no fluxo de desenvolvimento."
 ---
 
 A Checkmarx é uma empresa israelense de software de segurança de aplicação, cuja missão é fornecer às organizações empresariais produtos e serviços de teste de segurança de sistemas e aplicações que capacitem desenvolvedores a fornecer software mais seguro e com mais rapidez. Entre os mais de 1400 clientes da empresa estão cinco dos dez principais fornecedores de software do mundo e muitas organizações da Fortune 500 e do governo, incluindo SAP, Samsung e Salesforce.com.

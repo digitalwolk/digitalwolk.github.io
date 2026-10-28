@@ -1,15 +1,12 @@
 ---
 layout: default
-bodyClass: "page-post"
+bodyClass: "page-detail"
 ---
-
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
-  <div class="row justify-content-start">
-    <div class="col-12 col-md-12">
-      <div class="service service-single">
-        <h1 class="title">{{page.title}}</h1>
-        <div class="content">{{content}}</div>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="page-header">
+  <div class="container"><div class="inner">
+    <h1>{{ page.title }}</h1>
+    {% if page.summary %}<p>{{ page.summary }}</p>{% endif %}
+  </div></div>
+</section>
+<div class="container"><div class="prose">{{ content }}</div></div>
+{% include cta.html %}

@@ -2,6 +2,11 @@
 title: "Revisão de código"
 date: 2019-01-28T15:15:26+10:00
 weight: 2
+summary: "Especialistas leem seu código e apontam falhas que ferramentas automáticas não veem."
+points:
+  - "Revisão feita por especialistas, linha a linha"
+  - "Recomendações precisas para corrigir o que for encontrado"
+  - "Mais segurança e qualidade no código-fonte"
 ---
 
 Eleve a qualidade do seu código com nosso serviço de CodeReview. Nossa análise especializada identifica problemas, melhora a segurança e oferece recomendações precisas para otimizar o desenvolvimento do seu software. Confie em nossa experiência para alcançar excelência no código fonte.

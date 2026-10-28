@@ -1,7 +1,12 @@
 ---
 title: "Análise de segurança de aplicações"
 date: 2018-11-18T12:33:46+10:00
-weight: 1
+weight: 3
+summary: "Avaliação completa da segurança do seu aplicativo, com um relatório que diz o que corrigir primeiro."
+points:
+  - "Avaliação minuciosa da segurança do aplicativo"
+  - "Vulnerabilidades que ameaçam a integridade e a confidencialidade dos dados"
+  - "Orientação sobre o que corrigir primeiro"
 ---
 
 Nossa análise de segurança de aplicativos oferece uma avaliação minuciosa da segurança do seu aplicativo, identificando e abordando possíveis vulnerabilidades que possam comprometer a integridade e a confidencialidade dos dados.

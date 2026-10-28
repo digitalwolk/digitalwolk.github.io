@@ -2,80 +2,85 @@
 layout: default
 bodyClass: "page-home"
 ---
-
-<div class="intro home">
-  {% if page.intro_image %}
-    <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
-  {% endif %}
-</div>
-
-
-{% if site.data.features %}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="feature-header">
-      <h1>Conheça nossos produtos</h1>
-      <p>
-        Na nossa busca contínua por oferecer soluções de segurança de aplicativos de alta qualidade, nos orgulhamos de sermos parceiros de renomadas empresas como CHECKMARX e IRONSCALES. 
-      </p>
+<section class="hero">
+  <div class="container">
+    <div>
+      <h1>Seu software seguro desde a primeira linha.</h1>
+      <p class="lead">Encontramos as falhas antes de um atacante. Pentest, revisão de código e as ferramentas Checkmarx, com uma equipe brasileira que entrega relatório claro e acompanha a correção.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
+        <a class="btn btn-outline" href="{{ '/services/' | relative_url }}">Ver serviços</a>
+      </div>
     </div>
-    <div class="row justify-content-center">
-      {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
-          {% endif %}
-          <h2 class="feature-title">
-            <a href="{{ feature.url | relative_url }}">{{ feature.title }}</a>
-          </h2>
-          <div class="feature-content">{{ feature.description }}</div>
+    <div class="report" role="img" aria-label="Exemplo ilustrativo de relatório de pentest com quatro achados e suas gravidades">
+      <div class="report-head"><b>Relatório de teste</b><span>Exemplo ilustrativo</span></div>
+      <div class="finding"><span class="sev c">Crítica</span><p>Injeção de SQL no login<small>Aplicação web</small></p><span class="state ok">Corrigida</span></div>
+      <div class="finding"><span class="sev h">Alta</span><p>Controle de acesso quebrado na API<small>Autorização</small></p><span class="state ok">Corrigida</span></div>
+      <div class="finding"><span class="sev m">Média</span><p>Dependência com vulnerabilidade conhecida<small>Código aberto</small></p><span class="state">Em correção</span></div>
+      <div class="finding"><span class="sev l">Baixa</span><p>Cabeçalhos de segurança ausentes<small>Configuração</small></p><span class="state">Planejada</span></div>
+      <div class="report-foot">Cada achado traz gravidade, evidência e como corrigir.</div>
+    </div>
+  </div>
+  <div class="trust"><div class="container"><span><strong>Parceira Checkmarx</strong> para análise estática, dinâmica e de dependências</span></div></div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>O que fazemos para proteger seus aplicativos</h2>
+      <p>Do teste de invasão ao treinamento do seu time, cada serviço termina em algo que você pode corrigir.</p>
+    </div>
+    {% assign services = site.services | sort: 'weight' %}
+    <div class="explorer" id="explorer">
+      <div class="tabs" role="tablist" aria-label="Serviços">
+        {% for s in services %}
+        <button class="tab" role="tab" id="tab-{{ forloop.index }}" aria-controls="panel-{{ forloop.index }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}" type="button">{{ s.title }}</button>
+        {% endfor %}
+      </div>
+      <div class="panels">
+        {% for s in services %}
+        <div class="panel" role="tabpanel" id="panel-{{ forloop.index }}" aria-labelledby="tab-{{ forloop.index }}">
+          <h3>{{ s.title }}</h3>
+          <p class="sum">{{ s.summary }}</p>
+          <ul class="checks">{% for p in s.points %}<li>{{ p }}</li>{% endfor %}</ul>
+          <a class="link-quiet" href="{{ s.url | relative_url }}">Saiba mais sobre {{ s.title | downcase }}</a>
         </div>
+        {% endfor %}
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <h2>Ferramentas que encontram falhas enquanto você desenvolve</h2>
+      <p>Somos parceiros Checkmarx: licenciamos, implantamos e ensinamos seu time a usar.</p>
+    </div>
+    <div class="rows">
+      {% for f in site.data.features %}
+      <a class="row" href="{{ f.url | relative_url }}">
+        <h3>{{ f.title }} <small>{{ f.label }}</small></h3>
+        <p>{{ f.description }}</p>
+        <span class="go">Ver produto</span>
+      </a>
       {% endfor %}
     </div>
   </div>
-   
-    <div class="cta-btn">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "products" | relative_url }}">Confira nossos produtos</a>
-      </div>
-    </div>
-</div>
-{% endif %}
-    
+</section>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="feature-header">
-      <h2>Conheça nossos serviços</h2>
-      <p>
-        Nossos serviços de Application Security oferecem soluções abrangentes para proteger seus aplicativos contra ameaças cibernéticas. 
-      </p>
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <h2>Do primeiro contato ao relatório final</h2>
     </div>
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for service in site.services limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="feature service shadow">
-          <div class="service service-summary">
-            <div class="service-content">
-              <h2 class="service-title">
-                <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
-              </h2>
-              <p>{{ service.content | markdownify | strip_html | truncate: 300 }}</p>
-            </div>
-          </div>
-      </div>
-      </div>
-      {% endfor %}
-    </div>
-
+    <ol class="steps">
+      <li><h3>Conversa e escopo</h3><p>Entendemos seu sistema e definimos o que testar.</p></li>
+      <li><h3>Teste</h3><p>Executamos a análise e o ataque simulado.</p></li>
+      <li><h3>Relatório</h3><p>Você recebe cada falha com gravidade e como corrigir.</p></li>
+      <li><h3>Correção e reteste</h3><p>Confirmamos que a falha foi fechada.</p></li>
+    </ol>
   </div>
-  <div class="cta-btn">
-    <div class="col-auto">
-      <a class="button button-primary" href="{{ "services" | relative_url }}">Confira nossos serviços</a>
-    </div>
-  </div>
+</section>
 
-</div>
+{% include cta.html %}

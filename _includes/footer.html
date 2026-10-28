@@ -1,24 +1,33 @@
-<div class="footer">
+<footer class="site-footer">
   <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="footer-inner">
-          <h2 class="footer-title">
-            <div class="logo">
-              <a href="{{ '/' | relative_url }}"><img width="{{ site.logo.footer_width }}" height="{{ site.logo.footer_height }}" alt="{{ site.title }}" src="{{ site.logo.footer | relative_url }}" /></a>
-            </div>
-          </h2>
-          <ul>
-            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
-            {% for item in footermenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </div>
-        {% include sub-footer.html %}
+    <div class="foot">
+      <div>
+        <img src="{{ '/images/logo/logo_full_branco.svg' | relative_url }}" alt="digitalwolk application security" width="190">
+        <p>Segurança de aplicações, do código à produção. Parceira Checkmarx.</p>
+      </div>
+      <div>
+        <h2>Serviços</h2>
+        <ul>{% assign svc = site.services | sort: 'weight' %}{% for s in svc %}<li><a href="{{ s.url | relative_url }}">{{ s.title }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Produtos</h2>
+        <ul>{% for f in site.data.features %}<li><a href="{{ f.url | relative_url }}">{{ f.title }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Empresa</h2>
+        <ul>
+          <li><a href="{{ '/about/' | relative_url }}">Sobre</a></li>
+          <li><a href="{{ '/team/' | relative_url }}">Time</a></li>
+          <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contato</a></li>
+          {% if site.data.contact.email %}<li><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></li>{% endif %}
+          {% for s in site.data.social %}<li><a href="{{ s.link }}" target="_blank" rel="noopener noreferrer">{{ s.name }}</a></li>{% endfor %}
+        </ul>
       </div>
     </div>
+    <div class="legal">
+      <span>©{{ 'now' | date: "%Y" }} {{ site.data.seo.copyright_text }}</span>
+      <a href="{{ '/termos/' | relative_url }}">Política de privacidade</a>
+    </div>
   </div>
-</div>
+</footer>

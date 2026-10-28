@@ -1,7 +1,7 @@
 ---
-title: Team
+title: Time
 layout: teams
-description: Team
+description: Conheça o time da digitalwolk, especialistas em segurança de aplicações.
 permalink: "/team/"
 intro_image: "images/illustrations/team.svg"
 intro_image_absolute: true

@@ -2,6 +2,11 @@
 title: "Gestão de vulnerabilidades"
 date: 2018-12-28T15:14:39+10:00
 weight: 4
+summary: "Você sabe quais vulnerabilidades corrigir primeiro, e como."
+points:
+  - "Monitoramento contínuo dos seus aplicativos"
+  - "Identificação de novas vulnerabilidades"
+  - "Orientação de como corrigir cada uma"
 ---
 
 Monitoramento e identificação contínuos de vulnerabilidades nos aplicativos, além de fornecer orientações sobre como corrigi-las.

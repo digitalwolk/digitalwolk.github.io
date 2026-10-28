@@ -1,7 +1,12 @@
 ---
 title: "Treinamento de conscientização em segurança"
 date: 2019-03-28T15:14:54+10:00
-weight: 5
+weight: 6
+summary: "Seu time aprende a escrever código seguro e a manter isso sem depender de nós."
+points:
+  - "Para desenvolvedores e demais funcionários"
+  - "Boas práticas de desenvolvimento seguro"
+  - "Uso seguro dos aplicativos"
 ---
 
 Oferta de treinamentos para os desenvolvedores e funcionários da empresa, abordando as melhores práticas de segurança em desenvolvimento de aplicativos e uso seguro dos mesmos.

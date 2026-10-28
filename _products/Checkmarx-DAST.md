@@ -2,6 +2,7 @@
 title: "Checkmarx DAST"
 date: 2018-11-18T12:33:46+10:00
 weight: 2
+summary: "Teste a aplicação em execução, como um atacante faria, e corrija o que aparecer."
 ---
 
 ## Verificação dinâmica de aplicações da web para encontrar vulnerabilidades em tempo de execução
