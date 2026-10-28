@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.lang | default: 'pt-BR' }}">
 
 <head>
   <meta charset="utf-8">
-  <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
+  {% if page.meta_title %}{% assign seo_title = page.meta_title %}{% elsif page.title and page.title != 'Digitalwolk' %}{% assign seo_title = page.title | append: ' | Digitalwolk' %}{% else %}{% assign seo_title = 'Digitalwolk | Application Security (AppSec), Pentest e Checkmarx' %}{% endif %}
+  {% assign seo_description = page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 %}
+  {% assign seo_url = page.url | replace: 'index.html', '' | absolute_url %}
+  <title>{{ seo_title | escape }}</title>
+  <link rel="canonical" href="{{ seo_url }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" href="{{ '/images/favicon-32x32.svg' | relative_url }}">
   <!-- Google Fonts CDN -->
@@ -14,22 +18,20 @@
   <!-- <link rel="preload" href="{{ '/assets/fonts/playfair-display.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin> -->
   <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}" />{% endif %}
-  {% if page.meta_title %}
-  <meta property="og:title" content="{{ page.meta_title }}" />{% else %}
-  <meta property="og:title" content="{{ page.title }}" />{% endif %}
+  <meta name="description" content="{{ seo_description | escape }}" />
+  <meta property="og:title" content="{{ seo_title | escape }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ url }}" />
+  <meta property="og:url" content="{{ seo_url }}" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Digitalwolk" />
   {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}" />{% endif %}
-  {% if page.description %}
-  <meta property="og:description" content="{{ page.description }}" />{% endif %}
+  <meta property="og:description" content="{{ seo_description | escape }}" />
   <meta name="twitter:card" content="summary" />
   {% if site.data.seo.meta_twitter_site %}
-  <meta name="twitter:site" content="{{ site.seo.meta_twitter_site }}" />{% endif %}
+  <meta name="twitter:site" content="{{ site.data.seo.meta_twitter_site }}" />{% endif %}
   {% if site.data.seo.meta_twitter_creator %}
-  <meta name="twitter:creator" content="{{ site.seo.meta_twitter_creator }}" />{% endif %}
+  <meta name="twitter:creator" content="{{ site.data.seo.meta_twitter_creator }}" />{% endif %}
 
 </head>
 
@@ -46,9 +48,9 @@
 
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
   <a href="https://api.whatsapp.com/send/?phone=5544998348366&text=Ol%C3%A1%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20AppSec&type=phone_number&app_absent=0"
-    class="float" target="_blank">
+    class="float" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
     <i class="whatsapp">
-      <img width="80px" height="80px" alt="whatsapp" src="/images/logo/logo_animated.svg">
+      <img width="80px" height="80px" alt="whatsapp" src="{{ '/images/logo/logo_animated.svg' | relative_url }}">
     </i>
   </a>
 

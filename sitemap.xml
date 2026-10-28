@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- assign entries = site.pages | concat: site.products | concat: site.services | concat: site.blog | concat: site.team -%}
+{%- for p in entries -%}
+{%- unless p.url contains '.' and p.url != '/' and p.url contains '.xml' or p.url contains '.txt' or p.url contains '.json' or p.url contains '.css' or p.url contains '.js' or p.sitemap == false -%}
+  <url><loc>{{ p.url | replace: 'index.html', '' | absolute_url }}</loc></url>
+{%- endunless -%}
+{%- endfor %}
+</urlset>

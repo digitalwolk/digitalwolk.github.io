@@ -1,4 +1,7 @@
+url: 'https://digitalwolk.com'
 baseurl: '/'
+lang: pt-BR
+description: 'Consultoria de Application Security (AppSec): pentest, code review, SAST, DAST, SCA e treinamento em codificação segura. Parceira Checkmarx e IRONSCALES.'
 permalink: pretty
 title: 'digitalwolk'
 

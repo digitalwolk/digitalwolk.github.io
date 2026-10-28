@@ -30,11 +30,11 @@
     }
   },
   {
-    "title": "Interactive Application Security Testing (IAST)",
+    "title": "Infrastructure as Code Security (IaC)",
     "url": "products/Checkmarx-IAC/",
     "description": "Procure automaticamente por configurações inseguras que possam expor suas aplicações, dados ou serviços a ataques, e obtenha uma compreensão visual melhor dos resultados da verificação por meio do IaC.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/noun-target-5418680.svg",
       "width": 80,
       "height": 80
     }
@@ -44,7 +44,7 @@
     "url": "products/Checkmarx-Codebashing/",
     "description": "Desenvolva as habilidades de codificação segura da sua equipe de desenvolvimento, sem esforço. Escolhida para garantir a cadeia de suprimentos segura e lançamentos competitivos.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/noun_branding_1885335.svg",
       "width": 80,
       "height": 80
     }
@@ -54,7 +54,7 @@
     "url": "products/IronScales/",
     "description": "IRONSCALES™ é uma plataforma integrada de segurança de e-mail em nuvem (ICES) que fornece às organizações uma solução completa para segurança de e-mail empresarial.",
     "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
       "height": 80
     }
