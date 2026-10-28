@@ -5,55 +5,64 @@ bodyClass: "page-home"
 <section class="hero">
   <div class="container">
     <div>
-      <p class="eyebrow" style="color:var(--on-brand)">Application Security</p>
-      <h1 style="margin-top:12px">Seu software seguro desde a primeira linha.</h1>
+      <h1>Seu software seguro desde a primeira linha.</h1>
       <p class="lead">Encontramos as falhas antes de um atacante. Pentest, revisão de código e as ferramentas Checkmarx, com uma equipe brasileira que entrega relatório claro e acompanha a correção.</p>
       <div class="actions">
-        <a class="btn btn-dark" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
+        <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Falar com especialista</a>
         <a class="btn btn-outline" href="{{ '/services/' | relative_url }}">Ver serviços</a>
       </div>
     </div>
-    {% include hero-art.html %}
+    <div class="report" role="img" aria-label="Exemplo ilustrativo de relatório de pentest com quatro achados e suas gravidades">
+      <div class="report-head"><b>Relatório de teste</b><span>Exemplo ilustrativo</span></div>
+      <div class="finding"><span class="sev c">Crítica</span><p>Injeção de SQL no login<small>Aplicação web</small></p><span class="state ok">Corrigida</span></div>
+      <div class="finding"><span class="sev h">Alta</span><p>Controle de acesso quebrado na API<small>Autorização</small></p><span class="state ok">Corrigida</span></div>
+      <div class="finding"><span class="sev m">Média</span><p>Dependência com vulnerabilidade conhecida<small>Código aberto</small></p><span class="state">Em correção</span></div>
+      <div class="finding"><span class="sev l">Baixa</span><p>Cabeçalhos de segurança ausentes<small>Configuração</small></p><span class="state">Planejada</span></div>
+      <div class="report-foot">Cada achado traz gravidade, evidência e como corrigir.</div>
+    </div>
   </div>
+  <div class="trust"><div class="container"><span><strong>Parceira Checkmarx</strong> para análise estática, dinâmica e de dependências</span></div></div>
 </section>
-
-<div class="trust">
-  <div class="container"><strong>Parceira Checkmarx</strong><span>Pentest · Revisão de código · SAST, DAST e SCA · Treinamento</span></div>
-</div>
 
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <p class="eyebrow">Serviços</p>
       <h2>O que fazemos para proteger seus aplicativos</h2>
+      <p>Do teste de invasão ao treinamento do seu time, cada serviço termina em algo que você pode corrigir.</p>
     </div>
-    <div class="grid">
-      {% assign services = site.services | sort: 'weight' %}
-      {% for s in services %}
-      <a class="card" href="{{ s.url | relative_url }}">
-        <h3>{{ s.title }}</h3>
-        <p>{{ s.summary }}</p>
-        <span class="more">Saiba mais</span>
-      </a>
-      {% endfor %}
+    {% assign services = site.services | sort: 'weight' %}
+    <div class="explorer" id="explorer">
+      <div class="tabs" role="tablist" aria-label="Serviços">
+        {% for s in services %}
+        <button class="tab" role="tab" id="tab-{{ forloop.index }}" aria-controls="panel-{{ forloop.index }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}" type="button">{{ s.title }}</button>
+        {% endfor %}
+      </div>
+      <div class="panels">
+        {% for s in services %}
+        <div class="panel" role="tabpanel" id="panel-{{ forloop.index }}" aria-labelledby="tab-{{ forloop.index }}">
+          <h3>{{ s.title }}</h3>
+          <p class="sum">{{ s.summary }}</p>
+          <ul class="checks">{% for p in s.points %}<li>{{ p }}</li>{% endfor %}</ul>
+          <a class="link-quiet" href="{{ s.url | relative_url }}">Saiba mais sobre {{ s.title | downcase }}</a>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section alt">
+<section class="section dark">
   <div class="container">
     <div class="section-head">
-      <p class="eyebrow">Produtos</p>
       <h2>Ferramentas que encontram falhas enquanto você desenvolve</h2>
       <p>Somos parceiros Checkmarx: licenciamos, implantamos e ensinamos seu time a usar.</p>
     </div>
-    <div class="grid">
+    <div class="rows">
       {% for f in site.data.features %}
-      <a class="card" href="{{ f.url | relative_url }}">
-        <span class="pill">{{ f.label }}</span>
-        <h3>{{ f.title }}</h3>
+      <a class="row" href="{{ f.url | relative_url }}">
+        <h3>{{ f.title }} <small>{{ f.label }}</small></h3>
         <p>{{ f.description }}</p>
-        <span class="more">Ver produto</span>
+        <span class="go">Ver produto</span>
       </a>
       {% endfor %}
     </div>
@@ -63,7 +72,6 @@ bodyClass: "page-home"
 <section class="section">
   <div class="container">
     <div class="section-head">
-      <p class="eyebrow">Como trabalhamos</p>
       <h2>Do primeiro contato ao relatório final</h2>
     </div>
     <ol class="steps">
